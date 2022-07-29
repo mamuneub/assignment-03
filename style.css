@@ -1,6 +1,14 @@
+.opacity img {
+    filter: brightness(50%);
+}
 
+.colore {
+    background-color: #F4FAFD;
+}
 
-
+.btn {
+    font-weight: 700;
+}
 
 .fa-star {
     color: goldenrod;
