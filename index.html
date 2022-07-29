@@ -6,10 +6,252 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edu Care</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header area start -->
+    <header class="container">
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light br-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-bold" href="#">Edu Care</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-muted" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Register</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn btn-outline-info" type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Slider area start -->
+        <section class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="tex-mdl">
+                                <h1>Get Started Digital Learning</h1>
+                                <p>Digital education is the innovative use of digital tools and technologies during
+                                    teaching and learning</p>
+                                <div class="btn bg-info text-white h2 mb-5">Get Started</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Blended learning</h1>
+                            <p>Blended approaches use multiple methods to deliver learning by combining face-to-face
+                                interactions with online activities</p>
+                            <div class="btn bg-info text-white h2 mb-5">Get Started</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Online Learning</h1>
+                            <p>Online learning offers many benefits for students, including the chance to study flexibly
+                                and from a location that suits.</p>
+                            <div class="btn bg-info text-white h2 mb-5">Get Started</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Slider area end -->
+    </header>
+    <!-- Header area end -->
+    <!-- Main area start -->
+    <main class="container">
+        <!-- Popular Courses area -->
+        <section>
+            <div class="text-center my-5">
+                <h1>Discover Our Popular Courses</h1>
+                <p>Examples of some of the approaches to Digital Education can be found</p>
+            </div>
+            <div class="row gx-2">
+                <div class="card mb-3 me-3" style="max-width: 635px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body card-fluid">
+                                <h5 class="card-title">Fundamental Of UX/UI Design</h5>
+                                <p class="card-text">Despite the relative popularity of the UX design industry, there is
+                                    still a good amount of confusion around what UX /UI do.</p>
+                                <p class="text-info h5">Price $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 me-3" style="max-width: 635px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body card-fluid">
+                                <h5 class="card-title">Fundamental Of UX/UI Design</h5>
+                                <p class="card-text">Despite the relative popularity of the UX design industry, there is
+                                    still a good amount of confusion around what UX /UI do.</p>
+                                <p class="text-info h5">Price $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 me-3" style="max-width: 635px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body card-fluid">
+                                <h5 class="card-title">Fundamental Of UX/UI Design</h5>
+                                <p class="card-text">Despite the relative popularity of the UX design industry, there is
+                                    still a good amount of confusion around what UX /UI do.</p>
+                                <p class="text-info h5">Price $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 me-3" style="max-width: 635px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body card-fluid">
+                                <h5 class="card-title">Fundamental Of UX/UI Design</h5>
+                                <p class="card-text">Despite the relative popularity of the UX design industry, there is
+                                    still a good amount of confusion around what UX /UI do.</p>
+                                <p class="text-info h5">Price $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 me-3" style="max-width: 635px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body card-fluid">
+                                <h5 class="card-title">Fundamental Of UX/UI Design</h5>
+                                <p class="card-text">Despite the relative popularity of the UX design industry, there is
+                                    still a good amount of confusion around what UX /UI do.</p>
+                                <p class="text-info h5">Price $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 me-3" style="max-width: 635px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body card-fluid">
+                                <h5 class="card-title">Fundamental Of UX/UI Design</h5>
+                                <p class="card-text">Despite the relative popularity of the UX design industry, there is
+                                    still a good amount of confusion around what UX /UI do.</p>
+                                <p class="text-info h5">Price $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn bg-info text-white d-grid col-2 mx-auto  my-3">See More Courses</div>
+        </section>
+        <!-- Popular Courses area -->
+        <!-- Institute area start -->
+        <section class="mt-5">
+            <div class="border border-white bg-secondary card mb-3" style="max-width: 1340px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/elearning/elearning.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">Explore The E-Learning Institutes</h2>
+                            <p class="card-text">A common phrase you may hear in the UX industry is “design for
+                                all”—meaning that our design efforts should take into account the needs of people of all
+                                races, ages, genders, backgrounds, socioeconomic statuses, and more. UX designers
+                                have the ability to shape the world around them through their designs</p>
+                            <p>The power to solve complex problems that affect a wide range of individuals.</p>
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <h3>3.2K+</h3>
+                                    <p>Online Courses</p>
+                                </div>
+                                <div>
+                                    <h3>600+</h3>
+                                    <p>Expert Members</p>
+                                </div>
+                                <div>
+                                    <h3>1K+</h3>
+                                    <p>Rating & Review</p>
+                                </div>
 
+
+                            </div>
+                            <div class="btn bg-info text-white h2 mb-5">Read More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Institute area start -->
+    </main>
+    <!-- Main area End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
